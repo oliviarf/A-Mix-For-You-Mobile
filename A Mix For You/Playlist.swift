@@ -13,7 +13,7 @@ class Playlist {
     
     var title: String
     var seedArtists: Array<String>
-    var seedGenres: Array<String>
+    var seedGenre: String
     var danceability: Double
     var energy: Double
     var valence: Double
@@ -24,7 +24,7 @@ class Playlist {
     init(title: String) {
         self.title = title
         self.seedArtists = [String]()
-        self.seedGenres = [String]()
+        self.seedGenre = ""
         self.danceability = 0
         self.energy = 0
         self.valence = 0

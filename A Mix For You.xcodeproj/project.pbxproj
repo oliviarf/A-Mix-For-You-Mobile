@@ -12,7 +12,6 @@
 		9C1719F1220D3D48006C42EF /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1719F0220D3D48006C42EF /* Playlist.swift */; };
 		9C1719F3220D3E5A006C42EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1719F2220D3E5A006C42EF /* User.swift */; };
 		9C1719F5220D3E65006C42EF /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1719F4220D3E65006C42EF /* Track.swift */; };
-		9C3645C622363F530094A289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3675CF21CCA231009D9F50 /* AppDelegate.swift */; };
 		9C3675D021CCA231009D9F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3675CF21CCA231009D9F50 /* AppDelegate.swift */; };
 		9C3675D221CCA231009D9F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3675D121CCA231009D9F50 /* ViewController.swift */; };
 		9C3675D521CCA232009D9F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3675D321CCA231009D9F50 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 		9C3675E521CCA238009D9F50 /* A_Mix_For_YouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3675E421CCA238009D9F50 /* A_Mix_For_YouTests.swift */; };
 		9C7EDB59220D470F00527BD9 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1719F0220D3D48006C42EF /* Playlist.swift */; };
 		9C7EDB5A220D471300527BD9 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1719F4220D3E65006C42EF /* Track.swift */; };
-		9C7EDB61220E4FCD00527BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3675D121CCA231009D9F50 /* ViewController.swift */; };
 		9C7EDB62220E500500527BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3675D321CCA231009D9F50 /* Main.storyboard */; };
 		9C7EDB65220F7C5500527BD9 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7EDB64220F7C5400527BD9 /* SpotifyiOS.framework */; };
 		9C7EDB66220F7C5500527BD9 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7EDB64220F7C5400527BD9 /* SpotifyiOS.framework */; };
@@ -336,9 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3645C622363F530094A289 /* AppDelegate.swift in Sources */,
 				9C3675E521CCA238009D9F50 /* A_Mix_For_YouTests.swift in Sources */,
-				9C7EDB61220E4FCD00527BD9 /* ViewController.swift in Sources */,
 				9C7EDB59220D470F00527BD9 /* Playlist.swift in Sources */,
 				9C7EDB5A220D471300527BD9 /* Track.swift in Sources */,
 			);
@@ -428,7 +424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -506,7 +502,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "A Mix For You/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,7 +526,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "A Mix For You/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

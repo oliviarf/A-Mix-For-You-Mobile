@@ -8,7 +8,9 @@
 
 import UIKit
 
-var questionViews = [String](arrayLiteral: "Question1", "Question2", "Question3", "Question4", "Question5", "Question6", "Question7", "Question8")
+    var questionViews = [String](arrayLiteral: "Question1", "Question2", "Question3", "Question4", "Question5", "Question6", "Question7", "Question8")
+
+    var newPlaylist = Playlist(title: "New Playlist");
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate {
@@ -35,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate
     }()
     
     lazy var appRemote: SPTAppRemote = {
-        let appRemote = SPTAppRemote(configuration: self.configuration, logLevel: .debug)
+        let appRemote = SPTAppRemote(configuration: configuration, logLevel: .debug)
         appRemote.delegate = self
         return appRemote
     }()
@@ -45,6 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate
         
         let requestedScopes: SPTScope = [.appRemoteControl]
         self.sessionManager.initiateSession(with: requestedScopes, options: .default)
+        
         return true
     }
     
@@ -56,7 +59,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate
     
     func sessionManager(manager: SPTSessionManager, didInitiate session: SPTSession) {
         self.appRemote.connectionParameters.accessToken = session.accessToken
-        print (session.accessToken)
         self.appRemote.connect()
         print("success", session)
     }
@@ -87,7 +89,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate
     
     func playerStateDidChange(_ playerState: SPTAppRemotePlayerState) {
         print("player state changed")
-        debugPrint("Track name: %@", playerState.track.name)
     }
     
     
