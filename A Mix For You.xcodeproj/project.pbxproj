@@ -98,7 +98,8 @@
 				18AD9B9EA33783C7AF2F3B37 /* Pods-A Mix For YouTests.debug.xcconfig */,
 				2B08C7A1CB4C2F97A2936728 /* Pods-A Mix For YouTests.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
+			path = "A Mix For You/Pods";
 			sourceTree = "<group>";
 		};
 		9C3675C321CCA231009D9F50 = {
