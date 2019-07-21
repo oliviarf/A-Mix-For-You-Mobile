@@ -32,6 +32,17 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.orf.amixforyou</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amixforyou</string>
+			</array>
+		</dict>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -48,17 +59,6 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>spotify</string>
-	</array>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>dc9b38950b2e49019166a761c1562ad7</key>
-			<string>com.spotify.iOS-SDK-Quick-Start</string>
-			<key>spotify-ios-quick-start</key>
-			<array>
-				<string>spotify-ios-quick-start</string>
-			</array>
-		</dict>
 	</array>
 </dict>
 </plist>

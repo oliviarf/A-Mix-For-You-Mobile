@@ -9,6 +9,7 @@ import UIKit
 
 class Playlist {
     
+    
     //MARK: Properties
     
     var title: String
@@ -30,6 +31,5 @@ class Playlist {
         self.valence = 0
         
     }
-    
     
 }

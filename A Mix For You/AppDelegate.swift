@@ -13,11 +13,11 @@ import UIKit
     var newPlaylist = Playlist(title: "New Playlist");
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate{
     var window: UIWindow?
     
     let SpotifyClientID = "dc9b38950b2e49019166a761c1562ad7"
-    let SpotifyRedirectURL = URL(string: "spotify-ios-quick-start://spotify-login-callback")!
+    let SpotifyRedirectURL = URL(string: "amfyhomepage://")!
     
     lazy var configuration = SPTConfiguration(
         clientID: SpotifyClientID,
@@ -54,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         self.sessionManager.application(app, open: url, options: options)
         
+        sessionManager.application(app, open: url, options: options)
         return true
     }
     
