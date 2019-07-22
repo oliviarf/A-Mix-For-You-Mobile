@@ -39,7 +39,7 @@
 			<string>com.orf.amixforyou</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>amixforyou</string>
+				<string>amfyhomepage</string>
 			</array>
 		</dict>
 	</array>

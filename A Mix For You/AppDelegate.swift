@@ -8,12 +8,12 @@
 
 import UIKit
 
-    var questionViews = [String](arrayLiteral: "Question1", "Question2", "Question3", "Question4", "Question5", "Question6", "Question7", "Question8")
+var questionViews = [String](arrayLiteral: "Question1", "Question2", "Question3", "Question4", "Question5", "Question6", "Question7", "Question8")
 
-    var newPlaylist = Playlist(title: "New Playlist");
+var newPlaylist = Playlist(title: "New Playlist");
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate{
+class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate {
     var window: UIWindow?
     
     let SpotifyClientID = "dc9b38950b2e49019166a761c1562ad7"
@@ -33,7 +33,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate
         }
         let manager = SPTSessionManager(configuration: self.configuration, delegate: self)
         return manager
-        
     }()
     
     lazy var appRemote: SPTAppRemote = {
@@ -44,17 +43,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        let requestedScopes: SPTScope = [.appRemoteControl]
-        self.sessionManager.initiateSession(with: requestedScopes, options: .default)
-        
         return true
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         self.sessionManager.application(app, open: url, options: options)
         
-        sessionManager.application(app, open: url, options: options)
         return true
     }
     

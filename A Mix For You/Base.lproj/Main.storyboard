@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="lsu-zI-m1T">
             <objects>
-                <viewController storyboardIdentifier="Question1" id="MN5-Ra-G0B" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question1" id="MN5-Ra-G0B" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fex-Uf-Z88">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +81,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Hip Hop"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="Z6w-0M-qOa"/>
+                                    <action selector="relaxedAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="wU1-ou-dnR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nko-1G-mx0">
@@ -90,7 +90,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Indie"/>
                                 <connections>
-                                    <action selector="upbeatAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="Jdj-DZ-oYX"/>
+                                    <action selector="partyAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="mgs-ae-8Db"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5w-90-8IP">
@@ -99,7 +99,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="K-Pop"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="cSg-MA-P41"/>
+                                    <action selector="relaxedAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="TzB-JM-fui"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dj-0z-UEH">
@@ -108,7 +108,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Rock"/>
                                 <connections>
-                                    <action selector="sadAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="ryB-7a-KlF"/>
+                                    <action selector="sadAttributeButton:" destination="MN5-Ra-G0B" eventType="touchUpInside" id="B1Q-nl-aVv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="908" y="-568.06596701649175"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="IPV-vn-WAp">
             <objects>
-                <viewController storyboardIdentifier="Question2" id="niz-rq-TNC" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question2" id="niz-rq-TNC" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uv1-yU-ca8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,7 +134,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Sunny"/>
                                 <connections>
-                                    <action selector="partyAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="AJ8-Rh-cmy"/>
+                                    <action selector="partyAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="nMX-aT-5VD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7X-I9-2Fy">
@@ -143,7 +143,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Rainy"/>
                                 <connections>
-                                    <action selector="sadAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="6GK-Zk-zKo"/>
+                                    <action selector="sadAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="Kqd-8x-qah"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Vk-93-PCK">
@@ -152,7 +152,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Snowy"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="FPc-Ob-xwT"/>
+                                    <action selector="relaxedAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="F6V-Rx-YXU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSK-td-Yyp">
@@ -161,7 +161,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Cloudy"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="PQz-2g-m52"/>
+                                    <action selector="relaxedAttributeButton:" destination="niz-rq-TNC" eventType="touchUpInside" id="7jt-zJ-fey"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's the weather like today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txh-bJ-coI" customClass="Question">
@@ -180,10 +180,10 @@
             </objects>
             <point key="canvasLocation" x="1670" y="-568"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="7VP-Mh-tSe">
             <objects>
-                <viewController storyboardIdentifier="Question3" id="vp5-17-Ioh" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question3" id="vp5-17-Ioh" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J2P-Ss-PhT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,7 +201,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Rock"/>
                                 <connections>
-                                    <action selector="rockGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="iN0-95-y0D"/>
+                                    <action selector="rockGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="9g6-1T-Mp7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNB-ES-wTP">
@@ -210,7 +210,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Hip Hop"/>
                                 <connections>
-                                    <action selector="hiphopGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="3ka-vs-dq6"/>
+                                    <action selector="hiphopGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="nAY-vT-l3i"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0d-uU-bme">
@@ -219,7 +219,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Indie"/>
                                 <connections>
-                                    <action selector="indieGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="8cG-k0-OZd"/>
+                                    <action selector="indieGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="cOP-sL-azx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rD-tX-Adu">
@@ -228,7 +228,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="K-Pop"/>
                                 <connections>
-                                    <action selector="kpopGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="0Nq-Cm-P6j"/>
+                                    <action selector="kpopGenreButton:" destination="vp5-17-Ioh" eventType="touchUpInside" id="7Lf-3l-P4P"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -240,10 +240,10 @@
             </objects>
             <point key="canvasLocation" x="908" y="133.5832083958021"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="5cT-1U-XwD">
             <objects>
-                <viewController storyboardIdentifier="Question4" id="3pC-wM-d4u" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question4" id="3pC-wM-d4u" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Waw-UQ-Ox1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -261,7 +261,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Tired"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="YhD-yk-yot"/>
+                                    <action selector="relaxedAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="hiX-UT-EiA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rd-bH-bPE">
@@ -270,7 +270,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Happy"/>
                                 <connections>
-                                    <action selector="upbeatAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="GMb-be-q9Z"/>
+                                    <action selector="upbeatAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="2hp-3r-Q2y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VU4-gv-dft">
@@ -279,7 +279,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Stressed"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="7xz-8y-Xo2"/>
+                                    <action selector="relaxedAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="ljQ-NS-TXd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z74-MP-6et">
@@ -288,7 +288,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Sad"/>
                                 <connections>
-                                    <action selector="sadAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="cHT-fP-nNl"/>
+                                    <action selector="sadAttributeButton:" destination="3pC-wM-d4u" eventType="touchUpInside" id="1GA-dH-yyg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -300,10 +300,10 @@
             </objects>
             <point key="canvasLocation" x="1672.8" y="132.68365817091455"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="hPM-uQ-EqU">
             <objects>
-                <viewController storyboardIdentifier="Question5" id="j98-tL-Lkw" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question5" id="j98-tL-Lkw" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cNA-uq-9gH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -321,7 +321,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Work"/>
                                 <connections>
-                                    <action selector="upbeatAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="2RS-jW-GWR"/>
+                                    <action selector="upbeatAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="nD8-0d-cJm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CrO-zY-tTI">
@@ -330,7 +330,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="A Party"/>
                                 <connections>
-                                    <action selector="partyAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="IHo-7V-6Na"/>
+                                    <action selector="partyAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="oQe-cG-45E"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zU3-y8-b7S">
@@ -339,7 +339,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Studying"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="VU9-XK-ECl"/>
+                                    <action selector="relaxedAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="RzX-Xm-FKJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyE-lV-VuG">
@@ -348,7 +348,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Relaxing"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="edY-sK-6lP"/>
+                                    <action selector="relaxedAttributeButton:" destination="j98-tL-Lkw" eventType="touchUpInside" id="DGY-OJ-fZn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -368,15 +368,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Creating A Mix For You..." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zgo-p2-QlH">
-                                <rect key="frame" x="28" y="154" width="318" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Creating A Mix For You..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EX8-Oz-Vef">
+                                <rect key="frame" x="54" y="145" width="266" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="gvi-do-JLU">
-                                <rect key="frame" x="177" y="208" width="20" height="20"/>
+                                <rect key="frame" x="177" y="191" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                         </subviews>
@@ -391,18 +391,11 @@
         <!--View Controller-->
         <scene sceneID="kwc-fk-4rn">
             <objects>
-                <viewController id="NSJ-sy-jpN" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MixPage" id="NSJ-sy-jpN" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N8G-vs-ggh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Your Mix" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="POT-Mx-q9b">
-                                <rect key="frame" x="120" y="145" width="135" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heart Stop (feat. SEULGI) - Taemin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnk-3P-gu2">
                                 <rect key="frame" x="48" y="158" width="278" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -459,6 +452,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Mix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlN-Ws-LRL">
+                                <rect key="frame" x="142" y="121" width="90" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vYg-Tr-rVF"/>
@@ -468,10 +468,10 @@
             </objects>
             <point key="canvasLocation" x="3908" y="146.17691154422789"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="Kuc-kr-DdV">
             <objects>
-                <viewController storyboardIdentifier="Question6" id="Bxn-bT-0qz" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question6" id="Bxn-bT-0qz" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kIB-hW-UYV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -482,7 +482,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Summer"/>
                                 <connections>
-                                    <action selector="upbeatAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="gXU-5L-oD4"/>
+                                    <action selector="partyAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="3qk-QJ-G19"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otg-3h-nGt">
@@ -491,7 +491,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Fall"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="ZeD-i1-f25"/>
+                                    <action selector="relaxedAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="6Tf-bq-iN0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHd-ih-dsb">
@@ -500,7 +500,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Spring"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="YH7-kX-CaZ"/>
+                                    <action selector="upbeatAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="hD5-VD-4td"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKy-Mf-uL0">
@@ -509,7 +509,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Winter"/>
                                 <connections>
-                                    <action selector="sadAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="arR-cf-aqP"/>
+                                    <action selector="sadAttributeButton:" destination="Bxn-bT-0qz" eventType="touchUpInside" id="jq7-Rd-EVB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's your favourite season?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l43-wa-pH1" customClass="Question">
@@ -528,10 +528,10 @@
             </objects>
             <point key="canvasLocation" x="908" y="831"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="21i-Tc-gpI">
             <objects>
-                <viewController storyboardIdentifier="Question7" id="6DY-ei-0nd" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question7" id="6DY-ei-0nd" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uog-d1-tdz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -542,7 +542,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Pink"/>
                                 <connections>
-                                    <action selector="partyAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="cyT-Qp-gId"/>
+                                    <action selector="partyAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="uyr-go-etE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jI-Is-oiq">
@@ -551,7 +551,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Black"/>
                                 <connections>
-                                    <action selector="sadAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="OvI-Lj-MVk"/>
+                                    <action selector="sadAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="yg7-Nj-c8Q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72i-cM-1f8">
@@ -560,7 +560,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Blue"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="enh-2U-7Ok"/>
+                                    <action selector="relaxedAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="VJQ-lW-N2Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhO-2U-Pbf">
@@ -569,7 +569,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Yellow"/>
                                 <connections>
-                                    <action selector="upbeatAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="lJq-Fj-Lbp"/>
+                                    <action selector="upbeatAttributeButton:" destination="6DY-ei-0nd" eventType="touchUpInside" id="R3G-SZ-jYm"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's your favourite color?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJw-aU-dUX" customClass="Question">
@@ -588,10 +588,10 @@
             </objects>
             <point key="canvasLocation" x="1688.8" y="833.43328335832086"/>
         </scene>
-        <!--Question View Controller-->
+        <!--View Controller-->
         <scene sceneID="OIS-aT-kgf">
             <objects>
-                <viewController storyboardIdentifier="Question8" id="6ha-i8-FjA" customClass="QuestionViewController" customModule="A_Mix_For_You" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question8" id="6ha-i8-FjA" customClass="ViewController" customModule="A_Mix_For_You" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BZH-7E-WAN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -609,7 +609,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Morning"/>
                                 <connections>
-                                    <action selector="upbeatAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="Vwc-ve-CDZ"/>
+                                    <action selector="upbeatAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="BE8-cb-dBL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLi-hk-CUg">
@@ -618,7 +618,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Afternoon"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="aCR-KU-Uuy"/>
+                                    <action selector="relaxedAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="h6I-O8-Ncv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kz-XU-To8">
@@ -627,7 +627,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Bedtime"/>
                                 <connections>
-                                    <action selector="relaxedAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="jVu-yw-eCj"/>
+                                    <action selector="relaxedAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="IJx-Hq-w10"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7li-ZY-1l5">
@@ -636,7 +636,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Evening"/>
                                 <connections>
-                                    <action selector="partyAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="LtH-vi-bbS"/>
+                                    <action selector="partyAttributeButton:" destination="6ha-i8-FjA" eventType="touchUpInside" id="Zzk-KF-6Us"/>
                                 </connections>
                             </button>
                         </subviews>
