@@ -29,7 +29,7 @@ class MCQuestion: UIStackView {
     //MARK: Button Action
     
     @objc func answerTapped(choice: UIButton) {
-        print("uwu")
+        print("Selected")
     }
     
     //MARK: Private Methods
